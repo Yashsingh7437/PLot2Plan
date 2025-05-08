@@ -165,7 +165,7 @@ const ProfileSidebar = ({ active, setActive }) => {
             active === 8 ? "text-[red]" : ""
           } 800px:block hidden`}
         >
-          loguot
+          Logout
         </span>
       </div>
     </div>

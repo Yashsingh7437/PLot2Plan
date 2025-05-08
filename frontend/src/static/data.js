@@ -26,8 +26,8 @@ export const navItems = [
 export const brandingData = [
   {
     id: 1,
-    title: "Free Shipping",
-    Description: "From all orders over 100$",
+    title: "Best services",
+    Description: "Combined platform that make your work easy",
     icon: (
       <svg
         width="36"
@@ -76,7 +76,7 @@ export const brandingData = [
   },
   {
     id: 2,
-    title: "Daily Surprise Offers",
+    title: "Reduced construction cost",
     Description: "Save up to 25% off",
     icon: (
       <svg
@@ -191,65 +191,65 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Computers and Laptops",
+    title: "Contractor",
     subTitle: "",
     image_Url:
-      "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+      "https://i.pinimg.com/736x/cf/5d/45/cf5d45735068ea86c43987e07251bea0.jpg",
   },
   {
     id: 2,
-    title: "cosmetics and body care",
+    title: "Architect",
     subTitle: "",
     image_Url:
-      "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+      "https://cdn5.vectorstock.com/i/1000x1000/46/49/architect-construction-logo-design-house-planning-vector-26324649.jpg",
   },
   {
     id: 3,
-    title: "Accesories",
+    title: "Engineer",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+      "https://i.pinimg.com/736x/59/e1/50/59e150aa68abf4f1101949ff3267ecb1.jpg",
   },
   {
     id: 4,
-    title: "Cloths",
+    title: "Designer",
     subTitle: "",
     image_Url:
-      "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+      "https://i.pinimg.com/736x/d4/5b/b6/d45bb6f46ac0df379aed68f495e63976.jpg",
   },
   {
     id: 5,
-    title: "Shoes",
+    title: "Supplier",
     subTitle: "",
     image_Url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+      "https://i.pinimg.com/736x/f8/d8/f6/f8d8f648b5e7c350c144a68e9c2ad2b7.jpg",
   },
   {
     id: 6,
-    title: "Gifts",
+    title: "Project Manager",
     subTitle: "",
     image_Url:
-      "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+      "https://www.projectmanager.com/wp-content/uploads/2022/09/Construction-Project-Management.png",
   },
   {
     id: 7,
-    title: "Pet Care",
+    title: "Painter",
     subTitle: "",
-    image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+    image_Url: "https://i.pinimg.com/736x/ee/45/27/ee452761deda4f9518616bd66792da90.jpg",
   },
   {
     id: 8,
-    title: "Mobile and Tablets",
+    title: "Builder",
     subTitle: "",
     image_Url:
-      "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+      "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/construction-architect-logo-design-template-e9a40ea1c65605b553ae3660f610414c_screen.jpg?ts=1656586803",
   },
   {
     id: 9,
-    title: "Music and Gaming",
+    title: "Estimator",
     subTitle: "",
     image_Url:
-      "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhzNC82Hv1u72cc_kDiCAwI2PRvrvpnpqwgg&s",
   },
   {
     id: 10,
@@ -264,8 +264,8 @@ export const categoriesData = [
 export const productData = [
   {
     id: 1,
-    category: "Computers and Laptops",
-    name: "MacBook pro M2 chipset 256gb ssd 8gb ram space-gray color with apple 1 year warranty",
+    category: "Contractor",
+    name: "Wde range of contractors",
     description:
       "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
     image_Url: [
@@ -613,16 +613,16 @@ export const footerProductLinks = [
 
 export const footercompanyLinks = [
   {
-    name: "Game & Video",
+    name: "Buying",
   },
   {
-    name: "Phone &Tablets",
+    name: "Selling",
   },
   {
-    name: "Computers & Laptop",
+    name: "Estimation",
   },
   {
-    name: "Sport Watches",
+    name: "Weather Forecast",
   },
   {
     name: "Events",
@@ -640,7 +640,7 @@ export const footerSupportLinks = [
     name: "Contact Us",
   },
   {
-    name: "Shipping",
+    name: "Progress",
   },
   {
     name: "Live chat",

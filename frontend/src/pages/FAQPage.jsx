@@ -36,7 +36,7 @@ const Faq = () => {
                         onClick={() => toggleTab(2)}
                     >
                         <span className="text-lg font-medium text-gray-900">
-                            What is your return policy?
+                            What if I am not satisfied with the service?
                         </span>
                         {activeTab === 2 ? (
                             <svg
@@ -71,10 +71,10 @@ const Faq = () => {
                     {activeTab === 2 && (
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
-                                If you're not satisfied with your purchase, we accept returns
-                                within 30 days of delivery. To initiate a return, please email
-                                us at support@myecommercestore.com with your order number and a
-                                brief explanation of why you're returning the item.
+                                If you're not satisfied with the work done by service providers, we allow you
+                                to change the service provider within 7 days of order placed. To initiate the process, please email
+                                us at support@plot2plan.com with your order number and a
+                                brief explanation of why you're not satisfied with the service.
                             </p>
                         </div>
                     )}
@@ -86,7 +86,7 @@ const Faq = () => {
                         onClick={() => toggleTab(3)}
                     >
                         <span className="text-lg font-medium text-gray-900">
-                            How do I track my order?
+                            How do I track my progress?
                         </span>
                         {activeTab === 3 ? (
                             <svg
@@ -121,8 +121,8 @@ const Faq = () => {
                     {activeTab === 3 && (
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
-                                You can track your order by clicking the tracking link in your
-                                shipping confirmation email, or by logging into your account on
+                                You can track your work progress by clicking the tracking link in your
+                                assignment confirmation email, or by logging into your account on
                                 our website and viewing the order details.
                             </p>
                         </div>
@@ -171,7 +171,7 @@ const Faq = () => {
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
                                 You can contact our customer support team by emailing us at
-                                support@myecommercestore.com, or by calling us at (555) 123-4567
+                                support@plot2plan.com, or by calling us at (555) 123-4567
                                 between the hours of 9am and 5pm EST, Monday through Friday.
                             </p>
                         </div>
@@ -184,7 +184,7 @@ const Faq = () => {
                         onClick={() => toggleTab(5)}
                     >
                         <span className="text-lg font-medium text-gray-900">
-                            Can I change or cancel my order?
+                            Can I change start date of project or cancel my project?
                         </span>
                         {activeTab === 5 ? (
                             <svg
@@ -219,10 +219,9 @@ const Faq = () => {
                     {activeTab === 5 && (
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
-                                Unfortunately, once an order has been placed, we are not able to
-                                make changes or cancellations. If you no longer want the items
-                                you've ordered, you can return them for a refund within 30 days
-                                of delivery.
+                                Unfortunately, once an project has been started, we are not able to
+                                make changes or cancellations. If you no longer want to project to
+                                continue, you have to pay the full amount to the sellers.
                             </p>
                         </div>
                     )}
@@ -234,7 +233,7 @@ const Faq = () => {
                         onClick={() => toggleTab(6)}
                     >
                         <span className="text-lg font-medium text-gray-900">
-                            Do you offer international shipping?
+                            Do you offer international services?
                         </span>
                         {activeTab === 6 ? (
                             <svg
@@ -269,7 +268,7 @@ const Faq = () => {
                     {activeTab === 6 && (
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
-                                Currently, we only offer shipping within the United States.
+                                Currently, we only offer services within the India.
                             </p>
                         </div>
                     )}
@@ -317,7 +316,7 @@ const Faq = () => {
                         <div className="mt-4">
                             <p className="text-base text-gray-500">
                                 We accept visa,mastercard,paypal payment method also we have
-                                cash on delivery system.
+                                weekly paying system.
                             </p>
                         </div>
                     )}

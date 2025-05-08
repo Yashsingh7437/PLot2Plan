@@ -61,7 +61,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="./Golden Black Minimalist Elegant Apartment Logo.png"
                 alt=""
               />
             </Link>
@@ -234,7 +234,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="./Golden Black Minimalist Elegant Apartment Logo.png"
                 alt=""
                 className="mt-3 cursor-pointer"
               />
