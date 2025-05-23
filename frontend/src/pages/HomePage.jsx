@@ -7,6 +7,8 @@ import Events from "../components/Events/Events";
 import FeaturedProduct from "../components/Route/FeaturedProduct/FeaturedProduct";
 import Sponsored from "../components/Route/Sponsored";
 import Footer from "../components/Layout/Footer";
+import ConstructionEstimator from '../components/cost-estimation/ConstructionEstimator';
+
 
 
 const HomePage = () => {
@@ -16,6 +18,7 @@ const HomePage = () => {
             <Hero />
             <Categories />
             <BestDeals />
+            <ConstructionEstimator />
             <Events />
             <FeaturedProduct />
             <Sponsored />
